@@ -1417,7 +1417,7 @@ class DBConnection {
     public DBConnection() {
         try {
             // Establishing the database connection
-            dbConnection = DriverManager.getConnection("jdbc:mysql:///banking_system", "root", "Payal@123");
+            dbConnection = DriverManager.getConnection("jdbc:mysql:///banking_system", "root", "username");
         } catch (Exception e) {
             // Printing any exceptions that occur during the connection process
             System.out.println(e);
